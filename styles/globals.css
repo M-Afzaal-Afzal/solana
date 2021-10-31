@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#logo{
+  width: 100%;
+}
+.nav-menu a{
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: 900;
+  transition: all 0.3s ease;
+  text-transform: uppercaseyarn;
+}
+
+.nav-menu a:focus{
+  color: #F69E1A;
+}
+.social-icon a{
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: 20px;
+}
+.res-nav{
+  display: none;
+}
+@media screen and (max-width:860px) {
+  .res-nav{
+    display: block;
+  }
+  #right-nav{
+    position: absolute;
+    top: 0;
+    flex-direction: column;
+    background-color: #0B2100;
+    width: 70%;
+    height: 100%;
+    transition: all 0.3s ease;
+  }
+  .nav-menu{
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .nav-menu a{ 
+    margin: 30px;
+    text-align: center;
+  }
+}
+
+/* Hero section styling */
+
+.head img{
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+.head-pic img{
+  width: 100%;
+  height: 100%;
+}
+.item img{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width:950px){
+  .head img{
+    height: 1000px;
+  }
+  #container-head{
+    flex-direction: column;
+  }
+  .head-pic img{
+    margin-right: 0px;
+      /*margin-top: 6rem;*/
+      padding-top: 12rem;
+  }
+  .head-pic{
+    padding: 10px;
+    width:250px
+  }
+  .head-content{
+    width: 100%;
+    padding: 10px;
+  }
+  .head-content{
+    text-align: center;
+  }
+}
+@media screen and (max-width:740px){
+  #container-head{
+    top: 70%;
+  }
+  .FAQ img{
+    min-height: 900px;
+  }
+
+    .head-pic img{
+        padding-top: 14rem;
+    }
+}
+ /* roadmap */
+ .egg img{
+   width: 100%;
+   position: relative;
+ }
+ .egg-title{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+ }
+ @media screen and (max-width:630px){
+  .head img{
+    height: 1300px;
+  }
+ }
+ @media screen and (max-width:475px){
+   #subtitle{
+    display: none;
+  }
+  #container-head{
+    top: 95%;
+  }
+ }
+ @media screen and (max-width:540px){
+   .content-left{
+     width: 35%;
+   }
+   .content-right{
+     width: 65%;
+   }
+ }
+
+ /* FAQ */
+
+ .FAQ img{
+   width: 100%;
+   min-height: 100vh;
+   object-fit: cover;
+ }
+ @media screen and (max-width:700px){
+  .FAQ img{
+    min-height: 900px;
+  }
+}
+.card-img img{
+  width: 100%;
+}
+.card{
+  width: 25%;
+}
+@media screen and (max-width:800px){
+  .cards{
+    flex-direction: column;
+  }
+  .card{
+    width: 100%;
+  }
+}
