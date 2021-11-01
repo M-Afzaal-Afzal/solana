@@ -1,11 +1,12 @@
 import {useState} from "react";
-import Link from "next/link";
+// import Link from "next/link";
 import Container from "@mui/material/Container";
 import {Box} from "@mui/system";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import DehazeIcon from "@mui/icons-material/Dehaze";
 import CancelIcon from '@mui/icons-material/Cancel';
 import {FaDiscord} from "react-icons/fa";
+import {Link} from 'react-scroll';
 
 function Navbar() {
     const [hide, showNav] = useState(true);
@@ -15,11 +16,19 @@ function Navbar() {
     }
 
     return (
+        <Box>
+
+
         <Box sx={{
             backgroundColor: "#0B2100", width: "100%", display: "flex",
             justifyContent: "space-between",
-            alignItems: "center", height: '90px'
-        }}>
+            alignItems: "center", height: '90px',
+            zIndex: 999,
+            position: 'fixed',
+            left: 0,
+            top: 0,
+        }}
+        >
             <Container
                 component="div"
                 maxWidth="lg"
@@ -50,6 +59,7 @@ function Navbar() {
                         zIndex: 999,
                     } : {
                         display: "flex",
+                        height: '100%',
                         justifyContent: "center",
                         alignItems: "center",
                         py: 3,
@@ -66,18 +76,31 @@ function Navbar() {
                             alignItems: "center",
                         }}
                     >
-                        <a onClick={sidebarHandler} href="#home">
+                    <Link duration={500} className={'nav-link'} onClick={sidebarHandler} to={'home'} spy={true} activeClass={'active'}>
                             Home
-                        </a>
-                        <a onClick={sidebarHandler} href="#roadmap">
-                          Roadmap
-                        </a>
-                        <a onClick={sidebarHandler} href="#faq">
+                    </Link>
+
+                        <Link duration={500} className={'nav-link'} onClick={sidebarHandler} to={'roadmap'} spy={true} activeClass={'active'}>
+                            Roadmap
+                        </Link>
+
+                        <Link duration={500} className={'nav-link'} onClick={sidebarHandler} to={'faq'} spy={true} activeClass={'active'}>
                             Faq
-                        </a>
-                        <a onClick={sidebarHandler} href="#team">
+                        </Link>
+
+                        <Link  className={'nav-link'} onClick={sidebarHandler} to={'team'} spy={true} activeClass={'active'}>
                             Team
-                        </a>
+                        </Link>
+
+                        {/*<a onClick={sidebarHandler } className={'active'} href="#roadmap">*/}
+                        {/*  Roadmap*/}
+                        {/*</a>*/}
+                        {/*<a onClick={sidebarHandler} href="#faq">*/}
+                        {/*    */}
+                        {/*</a>*/}
+                        {/*<a onClick={sidebarHandler} href="#team">*/}
+                        {/*    Team*/}
+                        {/*</a>*/}
                     </Box>
                     <Box
                         component="div"
@@ -105,6 +128,7 @@ function Navbar() {
                     )}
                 </Box>
             </Container>
+        </Box>
         </Box>
     );
 }

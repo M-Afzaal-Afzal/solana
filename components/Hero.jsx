@@ -81,6 +81,11 @@ const imgURL = [
 function Hero() {
     return (
         <Box id={'home'}>
+            {/* this is just for top layout space */}
+            <Box sx={{
+                height: '90px',
+                width: '100%',
+            }}/>
             {/*<Box className="head" sx={{ position: "relative", width: "100%" }}>*/}
             {/*  <img src="pics/background.png" alt="" />*/}
             {/*</Box>*/}
@@ -246,7 +251,7 @@ function Hero() {
 
             <Grid container gap={0} columns={{md: 16, sm: 4, xs: 4}}>
                 {imgURL.map((item) => (
-                    <Grid sx={{boxShadow: 'none'}} item xs={1} sm={1} md={1} key={item.id}>
+                    <Grid sx={{boxShadow: 'none',mb: '-5px'}} item xs={1} sm={1} md={1} key={item.id}>
                         <Item sx={{boxShadow: 'none'}} className="item">
                             <img src={item.url} alt=""/>
                         </Item>

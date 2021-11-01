@@ -12,7 +12,7 @@ function Team() {
           width: "100%",
           minHeight: "90vh",
           py: 8,
-          marginTop: "-5px",
+          // marginTop: "-5px",
         }}
       >
         <Container

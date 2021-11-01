@@ -87,7 +87,8 @@ function Roadmap() {
         backgroundColor: "#277B00",
         width: "100%",
         minHeight: "100vh",
-        marginTop: "-7px",
+        // marginTop: "-7px",
+          py: '4rem',
         zIndex: 111,
         position: "relative",
       }}
