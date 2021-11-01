@@ -26,7 +26,10 @@ function Team() {
         >
           <Typography
             variant="h2"
-            sx={{ fontWeight: "900", color: "#FFFCF8", mb: 7 }}
+            sx={{ fontWeight: "900", color: "#FFFCF8", mb: 7,
+                fontFamily: `'Paytone One', sans-serif`,
+                letterSpacing: 1,
+            }}
             component="div"
             gutterBottom
           >
@@ -37,7 +40,7 @@ function Team() {
             component="div"
             sx={{textAlign: "center",display: "flex",
                 justifyContent: "center",
-                alignItems: "center",p:3 }}
+                alignItems: "flex-start",p:3 }}
           >
             <Box
               className="card"
@@ -47,7 +50,10 @@ function Team() {
                 justifyContent: "center",
                 alignItems: "center",
                 flexDirection: "column",
-                m:3
+                  m: {
+                      xs: 0,
+                      md: 3,
+                  }
               }}
             >
               <Box className="card-img" component="div" sx={{ width: "150px" }}>
@@ -55,7 +61,11 @@ function Team() {
               </Box>
               <Typography
                 variant="h4"
-                sx={{ fontWeight: "900", color: "#DDCFC3", mb: 1 }}
+                sx={{ fontWeight: "900", color: "#DDCFC3", mb: 1,
+                    fontFamily: `'Paytone One', sans-serif`,
+                    letterSpacing: 1,
+
+                }}
                 component="div"
                 gutterBottom
               >
@@ -63,7 +73,10 @@ function Team() {
               </Typography>
               <Typography
                 variant="body1"
-                sx={{ color: "#DDCFC3", mb: 1 }}
+                sx={{ color: "#DDCFC3", mb: 1,
+                    fontFamily: `'Play', sans-serif`,
+
+                }}
                 component="div"
                 gutterBottom
               >
@@ -81,7 +94,10 @@ function Team() {
                 justifyContent: "center",
                 alignItems: "center",
                 flexDirection: "column",
-                m:3
+                  m: {
+                      xs: 0,
+                      md: 3,
+                  }
               }}
             >
               <Box className="card-img" component="div" sx={{ width: "150px" }}>
@@ -89,7 +105,11 @@ function Team() {
               </Box>
               <Typography
                 variant="h4"
-                sx={{ fontWeight: "900", color: "#DDCFC3", mb: 1 }}
+                sx={{ fontWeight: "900", color: "#DDCFC3", mb: 1,
+                    fontFamily: `'Paytone One', sans-serif`,
+                    letterSpacing: 1,
+
+                }}
                 component="div"
                 gutterBottom
               >
@@ -97,7 +117,9 @@ function Team() {
               </Typography>
               <Typography
                 variant="body1"
-                sx={{color: "#DDCFC3", mb: 1 }}
+                sx={{color: "#DDCFC3", mb: 1,
+                    fontFamily: `'Play', sans-serif`,
+                }}
                 component="div"
                 gutterBottom
               >
@@ -113,7 +135,10 @@ function Team() {
                 justifyContent: "center",
                 alignItems: "center",
                 flexDirection: "column",
-                m:3
+                  m: {
+                      xs: 0,
+                      md: 3,
+                  }
               }}
             >
               <Box className="card-img" component="div" sx={{ width: "150px" }}>
@@ -121,7 +146,10 @@ function Team() {
               </Box>
               <Typography
                 variant="h4"
-                sx={{ fontWeight: "900", color: "#DDCFC3", mb: 1 }}
+                sx={{ fontWeight: "900", color: "#DDCFC3", mb: 1,
+                    fontFamily: `'Paytone One', sans-serif`,
+                    letterSpacing: 1,
+                }}
                 component="div"
                 gutterBottom
               >
@@ -129,7 +157,9 @@ function Team() {
               </Typography>
               <Typography
                 variant="body1"
-                sx={{color: "#DDCFC3", mb: 1 }}
+                sx={{color: "#DDCFC3", mb: 1,
+                    fontFamily: `'Play', sans-serif`,
+                }}
                 component="div"
                 gutterBottom
               >
@@ -145,7 +175,10 @@ function Team() {
                 justifyContent: "center",
                 alignItems: "center",
                 flexDirection: "column",
-                m:3
+                m: {
+                    xs: 0,
+                    md: 3,
+                }
               }}
             >
               <Box className="card-img" component="div" sx={{ width: "150px" }}>
@@ -153,7 +186,10 @@ function Team() {
               </Box>
               <Typography
                 variant="h4"
-                sx={{ fontWeight: "900", color: "#DDCFC3", mb: 1 }}
+                sx={{ fontWeight: "900", color: "#DDCFC3", mb: 1,
+                    fontFamily: `'Paytone One', sans-serif`,
+                    letterSpacing: 1,
+                }}
                 component="div"
                 gutterBottom
               >
@@ -161,7 +197,9 @@ function Team() {
               </Typography>
               <Typography
                 variant="body1"
-                sx={{ color: "#DDCFC3", mb: 1 }}
+                sx={{ color: "#DDCFC3", mb: 1,
+                    fontFamily: `'Play', sans-serif`,
+                }}
                 component="div"
                 gutterBottom
               >

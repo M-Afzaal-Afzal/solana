@@ -48,6 +48,7 @@ function RoadmapContent(props) {
                     top: "50%",
                     left: "50%",
                     transform: "translate(-50%,-50%)",
+                      fontFamily: `'Paytone One', sans-serif`,
                   }}
                   component="div"
                   gutterBottom
@@ -59,7 +60,10 @@ function RoadmapContent(props) {
             <Box className="content-right" component="div" sx={{width:'80%'}}>
               <Typography
                 variant="h5"
-                sx={{ fontWeight: "700", color: "#DDCFC3", mb: 1 }}
+                sx={{ fontWeight: "700", color: "#DDCFC3", mb: 1,
+                    fontFamily: `'Paytone One', sans-serif`,
+                    letterSpacing: 1,
+                }}
                 component="div"
                 gutterBottom
               >
@@ -67,7 +71,9 @@ function RoadmapContent(props) {
               </Typography>
               <Typography
                 variant="body1"
-                sx={{ color: "#DDCFC3", mb: 1 }}
+                sx={{ color: "#DDCFC3", mb: 1,
+                    fontFamily: `'Play', sans-serif`,
+                }}
                 component="div"
                 gutterBottom
               >

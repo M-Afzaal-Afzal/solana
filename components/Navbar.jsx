@@ -67,16 +67,16 @@ function Navbar() {
                         }}
                     >
                         <a onClick={sidebarHandler} href="#home">
-                            <a>Home</a>
+                            Home
                         </a>
                         <a onClick={sidebarHandler} href="#roadmap">
-                            <a>Roadmap</a>
+                          Roadmap
                         </a>
                         <a onClick={sidebarHandler} href="#faq">
-                            <a>Faq</a>
+                            Faq
                         </a>
                         <a onClick={sidebarHandler} href="#team">
-                            <a>Team</a>
+                            Team
                         </a>
                     </Box>
                     <Box

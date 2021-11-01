@@ -104,7 +104,9 @@ function Roadmap() {
       >
         <Typography
           variant="h2"
-          sx={{ fontWeight: "900", color: "#FFFCF8", mb: 1 }}
+          sx={{ fontWeight: "900",
+              fontFamily: `'Paytone One', sans-serif`,
+              color: "#FFFCF8", mb: 1 }}
           component="div"
           gutterBottom
         >
