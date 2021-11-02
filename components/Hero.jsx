@@ -207,7 +207,6 @@ function Hero() {
                             gutterBottom
                             id="paragraph"
                         >
-
                             Since our Dinos have long lost their home, they not only need new parents (YOU!), but also a
                             new home. Therefore, after the minting is over and all of the Baby Dinos are sold, we will
                             plant 10.000 new trees. One for each Dino. Because Dinos need new home and our planet needs
@@ -251,7 +250,7 @@ function Hero() {
 
             <Grid container gap={0} columns={{md: 16, sm: 4, xs: 4}}>
                 {imgURL.map((item) => (
-                    <Grid sx={{boxShadow: 'none',mb: '-5px'}} item xs={1} sm={1} md={1} key={item.id}>
+                    <Grid sx={{boxShadow: 'none', mb: '-5px'}} item xs={1} sm={1} md={1} key={item.id}>
                         <Item sx={{boxShadow: 'none'}} className="item">
                             <img src={item.url} alt=""/>
                         </Item>
