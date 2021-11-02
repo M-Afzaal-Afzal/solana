@@ -18,29 +18,29 @@ function FAQ() {
     {
       id: 1,
       heading: `Who are the Baby Dinos?`,
-      description: `They are 10.000 algorithmically generated supercute Baby Dinosaurs stored on the Solana blockchain. There are over 240 atributes in 7 categories, which gives millions of unique combinations. Since only 10.000 are being minted, some are more unique and rare than others.`,
+      description: `They are 10.000 algorithmically generated supercute Baby Dinosaurs stored on the Solana blockchain. There are over 240 atributes in 7 categories, which gives millions of unique combinations. Since only 10.000 are being minted, some are more unique and rare than others.`
     },
     {
       id: 2,
       heading: ` When is the Launch?`,
-      description: `They are 10.000 algorithmically generated supercute Baby Dinosaurs stored on the Solana blockchain. There are over 240 atributes in 7 categories, which gives millions of unique combinations. Since only 10.000 are being minted, some are more unique and rare than others.`,
+      description: `Launch date will be announced soon.`
     },{
       id: 3,
       heading: `How much does it cost to mint Baby Dino?`,
-      description: `They are 10.000 algorithmically generated supercute Baby Dinosaurs stored on the Solana blockchain. There are over 240 atributes in 7 categories, which gives millions of unique combinations. Since only 10.000 are being minted, some are more unique and rare than others.`,
+      description: `Each Dino will be sold at fair and affordable price.`
     },{
       id: 4,
       heading: `What wallet will I need?`,
-      description: `They are 10.000 algorithmically generated supercute Baby Dinosaurs stored on the Solana blockchain. There are over 240 atributes in 7 categories, which gives millions of unique combinations. Since only 10.000 are being minted, some are more unique and rare than others.`,
+      description:`You will need Phantom or Sollet.`
     },{
       id: 5,
       heading: `When will I get my Baby Dino after the mint?`,
-      description: `They are 10.000 algorithmically generated supercute Baby Dinosaurs stored on the Solana blockchain. There are over 240 atributes in 7 categories, which gives millions of unique combinations. Since only 10.000 are being minted, some are more unique and rare than others.`,
+      description:`Your Dino will be sent to your wallet right after the minting process. It might take a few minutes.`
     },
     {
       id: 6,
-      heading: `Wilimgl there be royalties?`,
-      description: `They are 10.000 algorithmically generated supercute Baby Dinosaurs stored on the Solana blockchain. There are over 240 atributes in 7 categories, which gives millions of unique combinations. Since only 10.000 are being minted, some are more unique and rare than others.`,
+      heading: `Will there be royalties?`,
+      description:`5% royalties will be applied to all the resales. `
     }
   ]
 

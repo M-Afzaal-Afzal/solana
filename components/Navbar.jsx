@@ -7,6 +7,7 @@ import DehazeIcon from "@mui/icons-material/Dehaze";
 import CancelIcon from '@mui/icons-material/Cancel';
 import {FaDiscord} from "react-icons/fa";
 import {Link} from 'react-scroll';
+import {Typography} from "@mui/material";
 
 function Navbar() {
     const [hide, showNav] = useState(true);
@@ -46,7 +47,8 @@ function Navbar() {
                         py: 3,
                     }}
                 >
-                    <img id="logo" src="pics/logo.png" alt="Logo"/>
+
+                    <img id="logo" src="pics/logoBabyDinose.png" alt="Logo"/>
                 </Box>
                 <Box
                     component="div"
