@@ -152,10 +152,10 @@ html {
  }
  @media screen and (max-width:540px){
    .content-left{
-     width: 35%;
+     /*width: 35%;*/
    }
    .content-right{
-     width: 65%;
+     /*width: 65%;*/
    }
  }
 
