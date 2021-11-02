@@ -48,7 +48,7 @@ function Navbar() {
                     }}
                 >
 
-                    <img id="logo" src="pics/logoBabyDinose.png" alt="Logo"/>
+                    <img id="logo" src="/pics/logoBabyDinose.png" alt="Logo"/>
                 </Box>
                 <Box
                     component="div"
