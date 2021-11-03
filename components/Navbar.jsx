@@ -114,10 +114,10 @@ function Navbar() {
                             ml: 3,
                         }}
                     >
-                        <a href="#">
+                        <a rel={'noreferrer'} target={'_blank'} href="https://discord.com/invite/yrMMfTEJbj">
                             <FaDiscord size={45} sx={{fontSize: 45}}/>
                         </a>
-                        <a href="#">
+                        <a rel={'noreferrer'} target={'_blank'}  href="https://twitter.com/BabyDinos_NFT" >
                             <TwitterIcon sx={{fontSize: 45}}/>
                         </a>
                     </Box>
